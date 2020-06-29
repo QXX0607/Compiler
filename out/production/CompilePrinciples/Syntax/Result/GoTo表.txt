@@ -1,0 +1,47 @@
+
+GotoTable
+
+Group 0:D 3 | S 2 | P 1 | L 5 | 
+Group 2:S 10 | 
+Group 66:S 67 | 
+Group 67:S 58 | 
+Group 3:S 105 | 
+Group 69:T 46 | F 49 | C 70 | E 47 | 
+Group 72:S 73 | 
+Group 73:S 58 | 
+Group 10:S 10 | 
+Group 11:T 12 | F 15 | E 13 | 
+Group 76:S 77 | 
+Group 77:S 58 | 
+Group 79:F 81 | 
+Group 16:T 21 | F 24 | E 22 | 
+Group 80:F 84 | 
+Group 18:F 20 | 
+Group 19:F 38 | 
+Group 85:T 21 | F 24 | E 90 | 
+Group 86:T 91 | F 49 | 
+Group 87:T 21 | F 24 | E 92 | 
+Group 88:T 93 | F 49 | 
+Group 25:T 21 | F 24 | E 30 | 
+Group 89:T 21 | F 24 | E 94 | 
+Group 27:F 29 | 
+Group 28:F 35 | 
+Group 95:T 46 | F 49 | C 96 | E 47 | 
+Group 32:T 34 | F 24 | 
+Group 33:T 36 | F 24 | 
+Group 98:S 99 | 
+Group 99:S 58 | 
+Group 102:S 103 | 
+Group 103:S 58 | 
+Group 40:T 42 | F 15 | 
+Group 41:T 43 | F 15 | 
+Group 105:S 10 | 
+Group 107:D 108 | L 5 | 
+Group 44:T 46 | F 49 | C 45 | E 47 | 
+Group 50:T 21 | F 24 | E 82 | 
+Group 53:S 54 | 
+Group 54:S 58 | 
+Group 58:S 58 | 
+Group 60:T 12 | F 15 | E 61 | 
+Group 63:T 46 | F 49 | C 64 | E 47 | 
+

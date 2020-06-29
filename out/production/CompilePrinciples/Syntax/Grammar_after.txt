@@ -1,0 +1,46 @@
+
+Grammar:fir->P
+Grammar:C->E>E
+Grammar:C->E<E
+Grammar:C->E==E
+Grammar:E->E+T
+Grammar:E->E-T
+Grammar:E->T
+Grammar:P->DS
+Grammar:P->S
+Grammar:F->(E)
+Grammar:F->id
+Grammar:F->int10
+Grammar:L->int
+Grammar:L->float
+Grammar:T->F
+Grammar:T->T*F
+Grammar:T->T/F
+Grammar:D->Lid;D
+Grammar:D->Lid;
+Grammar:S->id=E;
+Grammar:S->if(C){S}
+Grammar:S->if(C){S}else{S}
+Grammar:S->while(C){S}
+Grammar:S->SS
+
+first set for T:int10 | ( | id | 
+first set for D:float | int | 
+first set for S:id | while | if | 
+first set for P:id | float | while | if | int | 
+first set for fir:id | float | while | if | int | 
+first set for L:float | int | 
+first set for F:int10 | ( | id | 
+first set for C:int10 | ( | id | 
+first set for E:int10 | ( | id | 
+
+follow set for T:== | ) | * | + | ; | < | - | > | / | 
+follow set for D:id | while | if | 
+follow set for S:$ | id | while | } | if | 
+follow set for P:$ | 
+follow set for fir:$ | 
+follow set for F:== | ) | * | + | ; | < | - | > | / | 
+follow set for L:id | 
+follow set for C:) | 
+follow set for E:== | ) | + | ; | < | - | > | 
+

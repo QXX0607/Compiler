@@ -1,0 +1,113 @@
+
+ActionTable
+
+Group 0:'id' s4 | 'while' s6 | 'float' s7 | 'if' s8 | 'int' s9 | 
+Group 1:'$' ACC | 
+Group 2:'$' r(P->S.,$) | 'id' s4 | 'while' s6 | 'if' s8 | 
+Group 3:'id' s4 | 'while' s6 | 'if' s8 | 
+Group 4:'=' s11 | 
+Group 5:'id' s106 | 
+Group 6:'(' s44 | 
+Group 7:'id' r(L->float.,id) | 
+Group 8:'(' s95 | 
+Group 9:'id' r(L->int.,id) | 
+Group 10:'$' r(S->SS.,$) | 'id' s4 | 'while' s6 | 'if' s8 | 
+Group 11:'int10' s14 | '(' s16 | 'id' s17 | 
+Group 12:'*' s18 | ';' r(E->T.,;) | '+' r(E->T.,+) | '-' r(E->T.,-) | '/' s19 | 
+Group 13:';' s39 | '+' s40 | '-' s41 | 
+Group 14:'*' r(F->int10.,*) | ';' r(F->int10.,;) | '+' r(F->int10.,+) | '-' r(F->int10.,-) | '/' r(F->int10.,/) | 
+Group 15:'*' r(T->F.,*) | ';' r(T->F.,;) | '+' r(T->F.,+) | '-' r(T->F.,-) | '/' r(T->F.,/) | 
+Group 16:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 17:'*' r(F->id.,*) | ';' r(F->id.,;) | '+' r(F->id.,+) | '-' r(F->id.,-) | '/' r(F->id.,/) | 
+Group 18:'int10' s14 | '(' s16 | 'id' s17 | 
+Group 19:'int10' s14 | '(' s16 | 'id' s17 | 
+Group 20:'*' r(T->T*F.,*) | ';' r(T->T*F.,;) | '+' r(T->T*F.,+) | '-' r(T->T*F.,-) | '/' r(T->T*F.,/) | 
+Group 21:')' r(E->T.,)) | '*' s27 | '+' r(E->T.,+) | '-' r(E->T.,-) | '/' s28 | 
+Group 22:')' s37 | '+' s32 | '-' s33 | 
+Group 23:')' r(F->int10.,)) | '*' r(F->int10.,*) | '+' r(F->int10.,+) | '-' r(F->int10.,-) | '/' r(F->int10.,/) | 
+Group 24:')' r(T->F.,)) | '*' r(T->F.,*) | '+' r(T->F.,+) | '-' r(T->F.,-) | '/' r(T->F.,/) | 
+Group 25:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 26:')' r(F->id.,)) | '*' r(F->id.,*) | '+' r(F->id.,+) | '-' r(F->id.,-) | '/' r(F->id.,/) | 
+Group 27:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 28:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 29:')' r(T->T*F.,)) | '*' r(T->T*F.,*) | '+' r(T->T*F.,+) | '-' r(T->T*F.,-) | '/' r(T->T*F.,/) | 
+Group 30:')' s31 | '+' s32 | '-' s33 | 
+Group 31:')' r(F->(E).,)) | '*' r(F->(E).,*) | '+' r(F->(E).,+) | '-' r(F->(E).,-) | '/' r(F->(E).,/) | 
+Group 32:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 33:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 34:')' r(E->E+T.,)) | '*' s27 | '+' r(E->E+T.,+) | '-' r(E->E+T.,-) | '/' s28 | 
+Group 35:')' r(T->T/F.,)) | '*' r(T->T/F.,*) | '+' r(T->T/F.,+) | '-' r(T->T/F.,-) | '/' r(T->T/F.,/) | 
+Group 36:')' r(E->E-T.,)) | '*' s27 | '+' r(E->E-T.,+) | '-' r(E->E-T.,-) | '/' s28 | 
+Group 37:'*' r(F->(E).,*) | ';' r(F->(E).,;) | '+' r(F->(E).,+) | '-' r(F->(E).,-) | '/' r(F->(E).,/) | 
+Group 38:'*' r(T->T/F.,*) | ';' r(T->T/F.,;) | '+' r(T->T/F.,+) | '-' r(T->T/F.,-) | '/' r(T->T/F.,/) | 
+Group 39:'$' r(S->id=E;.,$) | 'id' r(S->id=E;.,id) | 'while' r(S->id=E;.,while) | 'if' r(S->id=E;.,if) | 
+Group 40:'int10' s14 | '(' s16 | 'id' s17 | 
+Group 41:'int10' s14 | '(' s16 | 'id' s17 | 
+Group 42:'*' s18 | ';' r(E->E+T.,;) | '+' r(E->E+T.,+) | '-' r(E->E+T.,-) | '/' s19 | 
+Group 43:'*' s18 | '+' r(E->E-T.,+) | ';' r(E->E-T.,;) | '-' r(E->E-T.,-) | '/' s19 | 
+Group 44:'int10' s48 | '(' s50 | 'id' s51 | 
+Group 45:')' s52 | 
+Group 46:'==' r(E->T.,==) | '*' s79 | '+' r(E->T.,+) | '<' r(E->T.,<) | '-' r(E->T.,-) | '>' r(E->T.,>) | '/' s80 | 
+Group 47:'==' s85 | '+' s86 | '<' s87 | '-' s88 | '>' s89 | 
+Group 48:'==' r(F->int10.,==) | '*' r(F->int10.,*) | '+' r(F->int10.,+) | '<' r(F->int10.,<) | '-' r(F->int10.,-) | '>' r(F->int10.,>) | '/' r(F->int10.,/) | 
+Group 49:'==' r(T->F.,==) | '*' r(T->F.,*) | '+' r(T->F.,+) | '<' r(T->F.,<) | '-' r(T->F.,-) | '>' r(T->F.,>) | '/' r(T->F.,/) | 
+Group 50:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 51:'==' r(F->id.,==) | '*' r(F->id.,*) | '+' r(F->id.,+) | '<' r(F->id.,<) | '-' r(F->id.,-) | '>' r(F->id.,>) | '/' r(F->id.,/) | 
+Group 52:'{' s53 | 
+Group 53:'id' s55 | 'while' s56 | 'if' s57 | 
+Group 54:'id' s55 | 'while' s56 | 'if' s57 | '}' s59 | 
+Group 55:'=' s60 | 
+Group 56:'(' s63 | 
+Group 57:'(' s69 | 
+Group 58:'id' s55 | 'while' s56 | '}' r(S->SS.,}) | 'if' s57 | 
+Group 59:'$' r(S->while(C){S}.,$) | 'id' r(S->while(C){S}.,id) | 'while' r(S->while(C){S}.,while) | 'if' r(S->while(C){S}.,if) | 
+Group 60:'int10' s14 | '(' s16 | 'id' s17 | 
+Group 61:';' s62 | '+' s40 | '-' s41 | 
+Group 62:'id' r(S->id=E;.,id) | 'while' r(S->id=E;.,while) | 'if' r(S->id=E;.,if) | '}' r(S->id=E;.,}) | 
+Group 63:'int10' s48 | '(' s50 | 'id' s51 | 
+Group 64:')' s65 | 
+Group 65:'{' s66 | 
+Group 66:'id' s55 | 'while' s56 | 'if' s57 | 
+Group 67:'id' s55 | 'while' s56 | 'if' s57 | '}' s68 | 
+Group 68:'id' r(S->while(C){S}.,id) | 'while' r(S->while(C){S}.,while) | '}' r(S->while(C){S}.,}) | 'if' r(S->while(C){S}.,if) | 
+Group 69:'int10' s48 | '(' s50 | 'id' s51 | 
+Group 70:')' s71 | 
+Group 71:'{' s72 | 
+Group 72:'id' s55 | 'while' s56 | 'if' s57 | 
+Group 73:'id' s55 | 'while' s56 | '}' s74 | 'if' s57 | 
+Group 74:'else' s75 | 'id' r(S->if(C){S}.,id) | 'while' r(S->if(C){S}.,while) | 'if' r(S->if(C){S}.,if) | '}' r(S->if(C){S}.,}) | 
+Group 75:'{' s76 | 
+Group 76:'id' s55 | 'while' s56 | 'if' s57 | 
+Group 77:'id' s55 | 'while' s56 | 'if' s57 | '}' s78 | 
+Group 78:'id' r(S->if(C){S}else{S}.,id) | 'while' r(S->if(C){S}else{S}.,while) | 'if' r(S->if(C){S}else{S}.,if) | '}' r(S->if(C){S}else{S}.,}) | 
+Group 79:'int10' s48 | '(' s50 | 'id' s51 | 
+Group 80:'int10' s48 | '(' s50 | 'id' s51 | 
+Group 81:'==' r(T->T*F.,==) | '*' r(T->T*F.,*) | '+' r(T->T*F.,+) | '<' r(T->T*F.,<) | '-' r(T->T*F.,-) | '>' r(T->T*F.,>) | '/' r(T->T*F.,/) | 
+Group 82:')' s83 | '+' s32 | '-' s33 | 
+Group 83:'==' r(F->(E).,==) | '*' r(F->(E).,*) | '+' r(F->(E).,+) | '<' r(F->(E).,<) | '-' r(F->(E).,-) | '>' r(F->(E).,>) | '/' r(F->(E).,/) | 
+Group 84:'==' r(T->T/F.,==) | '*' r(T->T/F.,*) | '+' r(T->T/F.,+) | '<' r(T->T/F.,<) | '-' r(T->T/F.,-) | '>' r(T->T/F.,>) | '/' r(T->T/F.,/) | 
+Group 85:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 86:'int10' s48 | '(' s50 | 'id' s51 | 
+Group 87:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 88:'int10' s48 | '(' s50 | 'id' s51 | 
+Group 89:'int10' s23 | '(' s25 | 'id' s26 | 
+Group 90:')' r(C->E==E.,)) | '+' s32 | '-' s33 | 
+Group 91:'==' r(E->E+T.,==) | '*' s79 | '+' r(E->E+T.,+) | '<' r(E->E+T.,<) | '-' r(E->E+T.,-) | '>' r(E->E+T.,>) | '/' s80 | 
+Group 92:')' r(C->E<E.,)) | '+' s32 | '-' s33 | 
+Group 93:'==' r(E->E-T.,==) | '*' s79 | '+' r(E->E-T.,+) | '<' r(E->E-T.,<) | '-' r(E->E-T.,-) | '>' r(E->E-T.,>) | '/' s80 | 
+Group 94:')' r(C->E>E.,)) | '+' s32 | '-' s33 | 
+Group 95:'int10' s48 | '(' s50 | 'id' s51 | 
+Group 96:')' s97 | 
+Group 97:'{' s98 | 
+Group 98:'id' s55 | 'while' s56 | 'if' s57 | 
+Group 99:'id' s55 | 'while' s56 | '}' s100 | 'if' s57 | 
+Group 100:'$' r(S->if(C){S}.,$) | 'else' s101 | 'id' r(S->if(C){S}.,id) | 'while' r(S->if(C){S}.,while) | 'if' r(S->if(C){S}.,if) | 
+Group 101:'{' s102 | 
+Group 102:'id' s55 | 'while' s56 | 'if' s57 | 
+Group 103:'id' s55 | 'while' s56 | 'if' s57 | '}' s104 | 
+Group 104:'$' r(S->if(C){S}else{S}.,$) | 'id' r(S->if(C){S}else{S}.,id) | 'while' r(S->if(C){S}else{S}.,while) | 'if' r(S->if(C){S}else{S}.,if) | 
+Group 105:'$' r(P->DS.,$) | 'id' s4 | 'while' s6 | 'if' s8 | 
+Group 106:';' s107 | 
+Group 107:'id' r(D->Lid;.,id) | 'while' r(D->Lid;.,while) | 'float' s7 | 'if' r(D->Lid;.,if) | 'int' s9 | 
+Group 108:'id' r(D->Lid;D.,id) | 'while' r(D->Lid;D.,while) | 'if' r(D->Lid;D.,if) | 
+

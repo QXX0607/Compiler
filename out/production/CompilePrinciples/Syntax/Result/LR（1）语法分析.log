@@ -1,0 +1,480 @@
+Status Stack:0 
+Symbol Stack:$ 
+Action:s9 , terminal:int
+
+*******************************
+
+Status Stack:0 9 
+Symbol Stack:$ int 
+Action:r(L->int.,id) , terminal:id
+
+*******************************
+
+Status Stack:0 5 
+Symbol Stack:$ L 
+Action:s106 , terminal:id
+
+*******************************
+
+Status Stack:0 5 106 
+Symbol Stack:$ L id 
+Action:s107 , terminal:;
+
+*******************************
+
+Status Stack:0 5 106 107 
+Symbol Stack:$ L id ; 
+Action:s9 , terminal:int
+
+*******************************
+
+Status Stack:0 5 106 107 9 
+Symbol Stack:$ L id ; int 
+Action:r(L->int.,id) , terminal:id
+
+*******************************
+
+Status Stack:0 5 106 107 5 
+Symbol Stack:$ L id ; L 
+Action:s106 , terminal:id
+
+*******************************
+
+Status Stack:0 5 106 107 5 106 
+Symbol Stack:$ L id ; L id 
+Action:s107 , terminal:;
+
+*******************************
+
+Status Stack:0 5 106 107 5 106 107 
+Symbol Stack:$ L id ; L id ; 
+Action:s9 , terminal:int
+
+*******************************
+
+Status Stack:0 5 106 107 5 106 107 9 
+Symbol Stack:$ L id ; L id ; int 
+Action:r(L->int.,id) , terminal:id
+
+*******************************
+
+Status Stack:0 5 106 107 5 106 107 5 
+Symbol Stack:$ L id ; L id ; L 
+Action:s106 , terminal:id
+
+*******************************
+
+Status Stack:0 5 106 107 5 106 107 5 106 
+Symbol Stack:$ L id ; L id ; L id 
+Action:s107 , terminal:;
+
+*******************************
+
+Status Stack:0 5 106 107 5 106 107 5 106 107 
+Symbol Stack:$ L id ; L id ; L id ; 
+Action:r(D->Lid;.,id) , terminal:id
+
+*******************************
+
+Status Stack:0 5 106 107 5 106 107 108 
+Symbol Stack:$ L id ; L id ; D 
+Action:r(D->Lid;D.,id) , terminal:id
+
+*******************************
+
+Status Stack:0 5 106 107 108 
+Symbol Stack:$ L id ; D 
+Action:r(D->Lid;D.,id) , terminal:id
+
+*******************************
+
+Status Stack:0 3 
+Symbol Stack:$ D 
+Action:s4 , terminal:id
+
+*******************************
+
+Status Stack:0 3 4 
+Symbol Stack:$ D id 
+Action:s11 , terminal:=
+
+*******************************
+
+Status Stack:0 3 4 11 
+Symbol Stack:$ D id = 
+Action:s14 , terminal:int10
+
+*******************************
+
+Status Stack:0 3 4 11 14 
+Symbol Stack:$ D id = int10 
+Action:r(F->int10.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 4 11 15 
+Symbol Stack:$ D id = F 
+Action:r(T->F.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 4 11 12 
+Symbol Stack:$ D id = T 
+Action:r(E->T.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 4 11 13 
+Symbol Stack:$ D id = E 
+Action:s39 , terminal:;
+
+*******************************
+
+Status Stack:0 3 4 11 13 39 
+Symbol Stack:$ D id = E ; 
+Action:r(S->id=E;.,id) , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 
+Symbol Stack:$ D S 
+Action:s4 , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 4 
+Symbol Stack:$ D S id 
+Action:s11 , terminal:=
+
+*******************************
+
+Status Stack:0 3 105 4 11 
+Symbol Stack:$ D S id = 
+Action:s14 , terminal:int10
+
+*******************************
+
+Status Stack:0 3 105 4 11 14 
+Symbol Stack:$ D S id = int10 
+Action:r(F->int10.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 4 11 15 
+Symbol Stack:$ D S id = F 
+Action:r(T->F.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 4 11 12 
+Symbol Stack:$ D S id = T 
+Action:r(E->T.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 4 11 13 
+Symbol Stack:$ D S id = E 
+Action:s39 , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 4 11 13 39 
+Symbol Stack:$ D S id = E ; 
+Action:r(S->id=E;.,if) , terminal:if
+
+*******************************
+
+Status Stack:0 3 105 10 
+Symbol Stack:$ D S S 
+Action:s8 , terminal:if
+
+*******************************
+
+Status Stack:0 3 105 10 8 
+Symbol Stack:$ D S S if 
+Action:s95 , terminal:(
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 
+Symbol Stack:$ D S S if ( 
+Action:s51 , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 51 
+Symbol Stack:$ D S S if ( id 
+Action:r(F->id.,>) , terminal:>
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 49 
+Symbol Stack:$ D S S if ( F 
+Action:r(T->F.,>) , terminal:>
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 46 
+Symbol Stack:$ D S S if ( T 
+Action:r(E->T.,>) , terminal:>
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 47 
+Symbol Stack:$ D S S if ( E 
+Action:s89 , terminal:>
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 47 89 
+Symbol Stack:$ D S S if ( E > 
+Action:s26 , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 47 89 26 
+Symbol Stack:$ D S S if ( E > id 
+Action:r(F->id.,)) , terminal:)
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 47 89 24 
+Symbol Stack:$ D S S if ( E > F 
+Action:r(T->F.,)) , terminal:)
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 47 89 21 
+Symbol Stack:$ D S S if ( E > T 
+Action:r(E->T.,)) , terminal:)
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 47 89 94 
+Symbol Stack:$ D S S if ( E > E 
+Action:r(C->E>E.,)) , terminal:)
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 
+Symbol Stack:$ D S S if ( C 
+Action:s97 , terminal:)
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 
+Symbol Stack:$ D S S if ( C ) 
+Action:s98 , terminal:{
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 
+Symbol Stack:$ D S S if ( C ) { 
+Action:s55 , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 
+Symbol Stack:$ D S S if ( C ) { id 
+Action:s60 , terminal:=
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 
+Symbol Stack:$ D S S if ( C ) { id = 
+Action:s17 , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 17 
+Symbol Stack:$ D S S if ( C ) { id = id 
+Action:r(F->id.,+) , terminal:+
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 15 
+Symbol Stack:$ D S S if ( C ) { id = F 
+Action:r(T->F.,+) , terminal:+
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 12 
+Symbol Stack:$ D S S if ( C ) { id = T 
+Action:r(E->T.,+) , terminal:+
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 61 
+Symbol Stack:$ D S S if ( C ) { id = E 
+Action:s40 , terminal:+
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 61 40 
+Symbol Stack:$ D S S if ( C ) { id = E + 
+Action:s17 , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 61 40 17 
+Symbol Stack:$ D S S if ( C ) { id = E + id 
+Action:r(F->id.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 61 40 15 
+Symbol Stack:$ D S S if ( C ) { id = E + F 
+Action:r(T->F.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 61 40 42 
+Symbol Stack:$ D S S if ( C ) { id = E + T 
+Action:r(E->E+T.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 61 
+Symbol Stack:$ D S S if ( C ) { id = E 
+Action:s62 , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 55 60 61 62 
+Symbol Stack:$ D S S if ( C ) { id = E ; 
+Action:r(S->id=E;.,}) , terminal:}
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 
+Symbol Stack:$ D S S if ( C ) { S 
+Action:s100 , terminal:}
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 
+Symbol Stack:$ D S S if ( C ) { S } 
+Action:s101 , terminal:else
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 
+Symbol Stack:$ D S S if ( C ) { S } else 
+Action:s102 , terminal:{
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 
+Symbol Stack:$ D S S if ( C ) { S } else { 
+Action:s55 , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 
+Symbol Stack:$ D S S if ( C ) { S } else { id 
+Action:s60 , terminal:=
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 
+Symbol Stack:$ D S S if ( C ) { S } else { id = 
+Action:s17 , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 17 
+Symbol Stack:$ D S S if ( C ) { S } else { id = id 
+Action:r(F->id.,-) , terminal:-
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 15 
+Symbol Stack:$ D S S if ( C ) { S } else { id = F 
+Action:r(T->F.,-) , terminal:-
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 12 
+Symbol Stack:$ D S S if ( C ) { S } else { id = T 
+Action:r(E->T.,-) , terminal:-
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 61 
+Symbol Stack:$ D S S if ( C ) { S } else { id = E 
+Action:s41 , terminal:-
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 61 41 
+Symbol Stack:$ D S S if ( C ) { S } else { id = E - 
+Action:s17 , terminal:id
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 61 41 17 
+Symbol Stack:$ D S S if ( C ) { S } else { id = E - id 
+Action:r(F->id.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 61 41 15 
+Symbol Stack:$ D S S if ( C ) { S } else { id = E - F 
+Action:r(T->F.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 61 41 43 
+Symbol Stack:$ D S S if ( C ) { S } else { id = E - T 
+Action:r(E->E-T.,;) , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 61 
+Symbol Stack:$ D S S if ( C ) { S } else { id = E 
+Action:s62 , terminal:;
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 55 60 61 62 
+Symbol Stack:$ D S S if ( C ) { S } else { id = E ; 
+Action:r(S->id=E;.,}) , terminal:}
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 103 
+Symbol Stack:$ D S S if ( C ) { S } else { S 
+Action:s104 , terminal:}
+
+*******************************
+
+Status Stack:0 3 105 10 8 95 96 97 98 99 100 101 102 103 104 
+Symbol Stack:$ D S S if ( C ) { S } else { S } 
+Action:r(S->if(C){S}else{S}.,$) , terminal:$
+
+*******************************
+
+Status Stack:0 3 105 10 10 
+Symbol Stack:$ D S S S 
+Action:r(S->SS.,$) , terminal:$
+
+*******************************
+
+Status Stack:0 3 105 10 
+Symbol Stack:$ D S S 
+Action:r(S->SS.,$) , terminal:$
+
+*******************************
+
+Status Stack:0 3 105 
+Symbol Stack:$ D S 
+Action:r(P->DS.,$) , terminal:$
+
+*******************************
+
+Status Stack:0 1 
+Symbol Stack:$ P 
+Action:ACC , terminal:$
+
+*******************************
+

@@ -1,0 +1,25 @@
+gramma table:
+D->Lid;D
+D->Lid;
+fir->P
+T->F
+T->T*F
+T->T/F
+F->(E)
+F->id
+F->int10
+L->int
+L->float
+C->E>E
+C->E<E
+C->E==E
+S->id=E;
+S->if(C){S}
+S->if(C){S}else{S}
+S->while(C){S}
+S->SS
+P->DS
+P->S
+E->E+T
+E->E-T
+E->T

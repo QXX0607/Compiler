@@ -1,0 +1,11 @@
+
+follow set for T:== | ) | * | + | ; | < | - | > | / | 
+follow set for D:id | while | if | 
+follow set for S:$ | id | while | } | if | 
+follow set for P:$ | 
+follow set for fir:$ | 
+follow set for F:== | ) | * | + | ; | < | - | > | / | 
+follow set for L:id | 
+follow set for C:) | 
+follow set for E:== | ) | + | ; | < | - | > | 
+

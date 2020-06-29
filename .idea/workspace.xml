@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e797df75-1266-424a-b06a-165a4056eba1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CompilePrinciples" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dAhzZpj5n0TZULaeqJmTIDaJo0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Our-Compiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaProject\CompilePrinciples\src\Syntax" />
+      <recent name="E:\Java\JavaProject\CompilePrinciples\src\Semantic" />
+      <recent name="E:\Java\JavaProject\CompilePrinciples\src\Syntax\Grammar" />
+      <recent name="E:\Java\JavaProject\CompilePrinciples\src\Syntax\Main" />
+      <recent name="E:\Java\JavaProject\CompilePrinciples\src\Syntax\Lex" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaProject\CompilePrinciples\src\Syntax\Result" />
+      <recent name="E:\Java\JavaProject\CompilePrinciples\src\Syntax" />
+      <recent name="E:\Java\JavaProject\CompilePrinciples\src\Syntax\out" />
+      <recent name="E:\Java\JavaProject\CompilePrinciples\src\Lex" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Lexical" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lexical.Lex.Lexical" />
+      <module name="CompilePrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lexical.Lex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Semantic.MainFunction.Main" />
+      <module name="CompilePrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Semantic.MainFunction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Syntax.MainFunction.Main" />
+      <module name="CompilePrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Syntax.Grammar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainFunction.Main" />
+      <module name="CompilePrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MainFunction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grammar.demo2" />
+      <module name="CompilePrinciples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Syntax.Grammar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Lexical (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.demo2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e797df75-1266-424a-b06a-165a4056eba1" name="Default Changelist" comment="" />
+      <created>1591874067166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591874067166</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1593316207903">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.864@0.0.1536.864" timestamp="1593316207903" />
+    <state x="933" y="187" key="FileChooserDialogImpl" timestamp="1593363537546">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="933" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1593363537546" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1593366739567">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1593366739567" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1593366739566">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1593366739566" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1593366739566">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1593366739566" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1593366739566">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1593366739566" />
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom" timestamp="1593337804576">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1593337804576" />
+    <state width="1493" height="270" key="GridCell.Tab.1.center" timestamp="1593337804576">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1593337804576" />
+    <state width="1493" height="270" key="GridCell.Tab.1.left" timestamp="1593337804576">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1593337804576" />
+    <state width="1493" height="270" key="GridCell.Tab.1.right" timestamp="1593337804576">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="270" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1593337804576" />
+    <state x="270" y="74" key="SettingsEditor" timestamp="1593235376281">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1593235376281" />
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1593255039560">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1593255039560" />
+    <state x="511" y="59" key="refactoring.ChangeSignatureDialog" timestamp="1593316444945">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="511" y="59" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1593316444945" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1593337148102">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1593337148102" />
+  </component>
+</project>

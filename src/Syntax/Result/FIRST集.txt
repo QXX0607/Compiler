@@ -1,0 +1,11 @@
+
+first set for S:id | while | if | 
+first set for F:int10 | ( | id | 
+first set for L:float | int | 
+first set for P:id | float | while | if | int | 
+first set for D:float | int | 
+first set for fir:id | float | while | if | int | 
+first set for T:int10 | ( | id | 
+first set for C:int10 | ( | id | 
+first set for E:int10 | ( | id | 
+
