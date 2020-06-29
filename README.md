@@ -11,11 +11,11 @@
 
 > 1. code.txt为待分析源码
 >
->    ![code.txt](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20200629175955486.png)
+>    ![code](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20200629175955486.png)
 >
 > 2. token.txt为输出结果
 >
->    ![token.txt](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20200629180007003.png)
+>    ![token](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20200629180007003.png)
 
 ### MainFunction为语法&&语义的主函数入口，因两者关联较大，直接使用了一个主函数调用
 > ##### 源代码.txt 可以进行修改,回车默认分析源代码.txt中存储的代码段，也可以输入指定文件名
